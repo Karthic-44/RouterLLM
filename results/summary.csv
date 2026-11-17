@@ -1,0 +1,19 @@
+group,name,accuracy,cost_per_1k,saved_vs_best_fixed_pct
+test,always small,0.225,0.007,92.2
+test,always small + lookup,0.56,0.024,74.9
+test,always large,0.4,0.028,70.7
+test,always large + lookup,0.695,0.095,0.0
+test,"router, 4 pipelines, cheapest point at 95% of best fixed",0.665,0.053,44.2
+test,"router, 2 models only, cheapest point at 95% of best fixed",,,
+test,"random mix, cheapest point at 95% of best fixed",0.6715,0.091,4.6
+test,"router, 4 pipelines, threshold 0.88 (chosen on validation)",0.6825,0.063,33.3
+test,oracle,0.78,0.023,75.7
+ood,always small,0.488,0.006,83.0
+ood,always small + lookup,0.516,0.025,28.7
+ood,always large,0.874,0.034,0.0
+ood,always large + lookup,0.832,0.118,-242.2
+ood,"router, 4 pipelines, cheapest point at 95% of best fixed",0.834,0.055,-58.8
+ood,"router, 2 models only, cheapest point at 95% of best fixed",0.834,0.032,7.3
+ood,"random mix, cheapest point at 95% of best fixed",0.8354,0.032,8.3
+ood,"router, 4 pipelines, threshold 0.88 (chosen on validation)",0.844,0.074,-113.9
+ood,oracle,0.954,0.02,41.4

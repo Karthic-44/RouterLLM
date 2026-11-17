@@ -1,0 +1,13 @@
+weak:
+  name: llama3.2:1b
+  base_url: http://localhost:11434/v1
+  api_key: ollama
+  price_in: 0.05
+  price_out: 0.08
+
+strong:
+  name: llama3.1:8b
+  base_url: http://localhost:11434/v1
+  api_key: ollama
+  price_in: 0.20
+  price_out: 0.30

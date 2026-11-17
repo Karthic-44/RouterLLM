@@ -1,0 +1,26 @@
+seed: 42
+
+datasets:
+  gsm8k: 500
+  arc: 500
+  popqa: 1500
+
+holdout: arc
+
+split:
+  train: 0.7
+  val: 0.1
+
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+top_k: 3
+
+corpus:
+  distractor_pages: 20000
+  max_words_per_page: 300
+  words_per_passage: 100
+
+max_tokens:
+  math: 400
+  mc: 300
+  fact: 48
+  open: 400

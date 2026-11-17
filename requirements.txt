@@ -1,0 +1,15 @@
+openai
+datasets
+pandas
+pyarrow
+numpy
+scikit-learn
+sentence-transformers
+joblib
+pyyaml
+matplotlib
+tqdm
+requests
+python-dotenv
+fastapi
+uvicorn
